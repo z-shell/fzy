@@ -51,7 +51,7 @@
             "user": "jhawthorn",
             "plugin": "fzy"
         },
-        "zplugin-ices": {
+        "zi-ices": {
             "default": {
                 "requires": "cc;make;cp",
 
