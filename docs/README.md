@@ -1,14 +1,27 @@
-<div align="center">
-<h1><a href="https://github.com/z-shell/zi">
-  <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" /></a>
-    ❮ ZI ❯ Package - Fzy </h1>
+<h1 align="center">
+  <a href="https://github.com/z-shell/zi">
+  <p><img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="60px" height="60px" /></a>
+  ❮ ZI ❯ Package - Fzy </p>
+</h1>
 <h3 align="center">
-
-| **Package source:** |           Tarball            | Binary |        Git         | Node | Gem |
-| :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
-|     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
-
-</h3></div><hr />
+<table>
+    <tr>
+        <td><b>Package source:</b></td>
+        <td>Tarball</td>
+        <td>Binary</td>
+        <td>Git</td>
+        <td>Node</td>
+        <td>Gem</td>
+    </tr>
+    <tr>
+        <td><b>Status:</b></td>
+        <td>✔️ (default)</td>
+        <td>❌</td>
+        <td>✔️</td>
+        <td>❌</td>
+        <td>❌</td>
+    </tr>
+</table></h3><hr />
 
 ### Available `pack''` invocations
 
@@ -56,7 +69,7 @@ zi lucid as"null" make sbin"fzy;contrib/fzy-*" …
 
 > This repository compatible with [ZI](https://github.com/z-shell/zi)
 
-The [jhawthorn/fzy](https://github.com/jhawthorn/fzy) zsh package that can use the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
+The [jhawthorn/fzy](https://github.com/jhawthorn/fzy) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
