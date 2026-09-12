@@ -21,14 +21,13 @@
   "zsh-data": {
     "plugin-info": {
       "user": "jhawthorn",
-      "plugin": "fzy",
-      "version": "1.0.0"
+      "plugin": "fzy"
     },
     "zi-ices": {
       "default": {
         "requires": "cc;make;cp",
         "git": "",
-        "depth": 1,
+        "depth": "1",
         "lucid": "",
         "as": "null",
         "atclone": "cp -vf contrib/fzy-* $ZPFX/bin/",
@@ -39,7 +38,7 @@
       "bgn": {
         "requires": "cc;make;bgn",
         "git": "",
-        "depth": 1,
+        "depth": "1",
         "lucid": "",
         "as": "null",
         "atclone": "cp -vf fzy.1 $ZPFX/man/man1",
